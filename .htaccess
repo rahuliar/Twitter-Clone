@@ -1,0 +1,18 @@
+RewriteEngine on
+
+RewriteRule ^home home.php [NC,L]
+
+RewriteRule ^explore explore.php [NC,L]
+
+RewriteRule ^profile user_profile.php [NC,L]
+
+RewriteRule ^messages messages.php [NC,L]
+
+RewriteRule ^login_logic ./backend/login_logic.php [NC,L]
+
+RewriteRule ^logout_logic ./backend/logout_logic.php [NC,L]
+
+RewriteRule ^logout_logic ./backend/logout_logic.php [NC,L]
+
+RewriteRule ^signup signup.php [NC,L]
+
